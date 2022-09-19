@@ -8,14 +8,14 @@
 
 Collection of related data.
 
-### 1) Structured data --> RDBMS
+### a) Structured data --> RDBMS
 Relation database management system(RDBMS).
 It stored in table format by the relation in data.
 
 
-### 2) Unstructed data
+### b) Unstructed data
 
-
+## _________________________________
 
 ## 2] DBMS
 
