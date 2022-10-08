@@ -13,7 +13,7 @@ Engineering approach to develop software.
 
 ## Software crisis:
 ### Causes :
-    Software products are ,
+Software products are ,
 1) more expensive than hardware.
 2) difficult to alter, debug and enhance.
 3) use resources non-optimally.
@@ -335,3 +335,7 @@ Boehm suggested that estimation of project parameters should be done through thr
     * It limits the accuracy of software costs.
     * It oversimplifies the impact of safety or security aspects.
     * It also ignores customer skills, cooperation, and knowledge.
+![1](Images/1.jpg)
+![2](Images/2.jpg)
+![3](Images/3.jpg)
+![4](Images/4.jpg)
