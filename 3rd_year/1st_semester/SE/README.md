@@ -254,12 +254,12 @@ Once the customer approves the prototype, the actual software is developed using
 The main goal of software project management is to enable a group of developers to work effectively towards the successful completion of a project.
 
 ## Software Project Management Complexities
-    1)  Invisibility
-    2)  Changeability
-    3)  Complecity
-    4)  Uniqueness
-    5)  Exactness of solution
-    6)  Team-oriented and intellect-intensive work
+1)  Invisibility
+2)  Changeability
+3)  Complecity
+4)  Uniqueness
+5)  Exactness of solution
+6)  Team-oriented and intellect-intensive work
 
 ## Project Planning
 * ### Sliding Window Planning 
@@ -274,6 +274,9 @@ The project size is a measure of the problem complexity in terms of theeffort an
 
 
 ## Project Estimation Techniques
-1) Empirical Estimation Technique
-2) Heuristic Technique
-3) Analytical Estimation Technique
+### 1) Empirical Estimation Technique
+* #### Expert Judgement 
+* #### Delphi Cost Estimation
+### 2) Heuristic Technique
+* #### COCOMO 
+### 3) Analytical Estimation Technique
