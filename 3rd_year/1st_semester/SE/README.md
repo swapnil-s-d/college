@@ -51,7 +51,7 @@
     A software development life cycle (SDLC) model describes the different activities that need to be carried out for the software to evolve in its life cycle.
 
 
-# 1) Classical Waterfall Model:
+## 1) Classical Waterfall Model:
 
 * Simple
 * Hard to put this model use in any non-trivial software development project.
@@ -134,7 +134,7 @@ Shortcomings:
 
 
 
-# 2) Iterative Waterfall Model:
+## 2) Iterative Waterfall Model:
 
 ![Iterative Waterfall Model](Images/Iterative%20Waterfall%20Model.png)
 
@@ -146,17 +146,17 @@ Shortcomings:
 
 
 
-Shortcumings:
-    1) Difficult to accomodate change requests.
-    2) Incremental delivery not supported.
-    3) Phase overlap.
-    4) Error correction unduly expensive.
-    5) Limited customer interaction.
-    6) Heavy weight.
-    7) No support to risk handling and code reuse.
+### Shortcumings:
+1) Difficult to accomodate change requests.
+2) Incremental delivery not supported.
+3) Phase overlap.
+4) Error correction unduly expensive.
+5) Limited customer interaction.
+6) Heavy weight.
+7) No support to risk handling and code reuse.
 
 
-# 3) V Model:
+## 3) V Model:
 
 ![V Model](Images/V%20Model.png)
 
@@ -168,50 +168,43 @@ Shortcumings:
 
 * Left half Development phase and right half Validation Phase.
 
-*Advantages* :
-    1) Must of testing activities are carried out in paralled with development activities.
+### *Advantages* :
+1) Must of testing activities are carried out in paralled with development activities.
+2) Quality of test cases are usually better..
+3) More efficient manpower utilization.
 
-    2) Quality of test cases are usually better..
-
-    3) More efficient manpower utilization.
-
-*Disadvantages* :
-    Being a derivative of the classical waterfall model, this model inherits most of the weaknesses of the waterfall model
+### *Disadvantages* :
+Being a derivative of the classical waterfall model, this model inherits most of the weaknesses of the waterfall model
 
 
-# 4) Prototyping Model:
+## 4) Prototyping Model:
 
 * This model suggests building a working prototype of the system, before development of the actual software.
 
 * This model is the most appropriate for projects that suffer from technical and requirements risks. A constructed prototype helps overcome these risks.
 
-* Necessity of the prototyping model:
-
-    1) For development of the graphical user interface (GUI) part of an application.
-    2) Especially useful when the exact technical solutions are unclear to the development team.
-    3) The prototyping model can be deployed when development of highly optimised and efficient software is required.
+### * Necessity of the prototyping model:
+1) For development of the graphical user interface (GUI) part of an application.
+2) Especially useful when the exact technical solutions are unclear to the development team.
+3) The prototyping model can be deployed when development of highly optimised and efficient software is required.
 
 ![Prototyping Model](Images/Prototyping%20Model.png)
 
-1) Prototyping Development:
-    This cycle of obtaining customer feedback and modifying the prototype continues till the customer approves the prototype.
+#### 1) Prototyping Development:
+This cycle of obtaining customer feedback and modifying the prototype continues till the customer approves the prototype.
 
-2) Iterative Development:
-    Once the customer approves the prototype, the actual software is developed using the iterative waterfall approach.
-
-
-*Weaknesses* :
-
-    * It can increase the cost of development of projects.
-
-    * It not suffer for any significant risk.
-
-    * Since the prototype is constructed only at the start of the project, the prototyping model is ineffective for risks identified later during the development cycle.
-
-    * It not be appropriate for projects for which the risks can only be identified after the development is underway.
+#### 2) Iterative Development:
+Once the customer approves the prototype, the actual software is developed using the iterative waterfall approach.
 
 
-# 5) Increment Development Model:
+### *Weaknesses* :
+* It can increase the cost of development of projects.
+* It not suffer for any significant risk.
+* Since the prototype is constructed only at the start of the project, the prototyping model is ineffective for risks identified later during the development cycle.
+* It not be appropriate for projects for which the risks can only be identified after the development is underway.
+
+
+## 5) Increment Development Model:
     
 ![Increment Development Model](Images/Increment%20Development%20Model.png)
 
@@ -219,12 +212,12 @@ Shortcumings:
 
 ![Increment Development Model](Images/Increment%20Devel%3Bopment%20Model%202.png)
 
-* Advantages:
-    1) Error Reduction.
-    2) Incremental resource deployment.
+### * Advantages:
+1) Error Reduction.
+2) Incremental resource deployment.
 
 
-# 6) Evolutionary Software Development Model :
+## 6) Evolutionary Software Development Model :
 
 ![Evolutionary Model](Images/Evolutionary%20Model.png)
 
@@ -232,41 +225,36 @@ Shortcumings:
 
 * The evolutionary model is well-suited to use in object-oriented software development projects.
 
-* Advantages:
+### * Advantages:
+1) Effective elicitation of actual customer requirements.
+2) Easy handling change requests.
 
-    1) Effective elicitation of actual customer requirements.
-    2) Easy handling change requests.
-
-* Disadvantages:
-
-    1) Feature division into incremental parts can be non-trivial.
-
-    2) Ad hoc design.
+### * Disadvantages:
+1) Feature division into incremental parts can be non-trivial.
+2) Ad hoc design.
 
 
-# 7) Rapid Application Development (RAD) Model:
+## 7) Rapid Application Development (RAD) Model:
 
 ![RAD Model](Images/RAD%20Model.png)
 
-* Goals:
-    * To decrease the time taken and the cost incurred to develop software systems.
-
-    * To limit the costs of accommodating change requests.
-
-    * To reduce the communication gap between the customer and the developers.
+#### * Goals:
+* To decrease the time taken and the cost incurred to develop software systems.
+* To limit the costs of accommodating change requests.
+* To reduce the communication gap between the customer and the developers.
 
 * Incremental Process Model.
 
 * Cycle (60 - 90 days).
 
-* Application:
-    * Customised software
-    * Non-critical software
-    * Highly constrained pro ject schedule
-    * Large software
+#### * Application:
+* Customised software
+* Non-critical software
+* Highly constrained pro ject schedule
+* Large software
 
 
-# 8) Spiral Model:
+## 8) Spiral Model:
 
 ![Spiral Model](Images/Spiral%20Model.png)
 
@@ -276,13 +264,13 @@ Shortcumings:
 
 * A risk is essentially any adverse circumstance that might hamper the successful completion of a software project.
 
-* Disadvantages:
-    * It appears complex model to follow.
-    * It is risk driven and more complicated phase structure.
-    * Not suitable for development of outsourced projects.
+### * Disadvantages:
+* It appears complex model to follow.
+* It is risk driven and more complicated phase structure.
+* Not suitable for development of outsourced projects.
 
-* Advantages:
-    For projects having many unknown risks that might show up as the development proceeds, the spiral model would be the most appropriate development model to follow.
+### * Advantages:
+For projects having many unknown risks that might show up as the development proceeds, the spiral model would be the most appropriate development model to follow.
 
     
 
