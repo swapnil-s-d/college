@@ -38,9 +38,8 @@ Engineering approach to develop software.
 
 
 * * *
-
-
 # Software Development Life Cycle:
+* * *
 A software development life cycle (SDLC) model describes the different activities that need to be carried out for the software to evolve in its life cycle.
 
 
@@ -250,16 +249,31 @@ Once the customer approves the prototype, the actual software is developed using
 
     
 * * *
-
 # Software Project Management 
+* * *
 The main goal of software project management is to enable a group of developers to work effectively towards the successful completion of a project.
 
-## Software Project Management Complexities:
-1)  Invisibility
-2)  Changeability
-3)  Complecity
-4)  Uniqueness
-5)  Exactness of solution
-6)  Team-oriented and intellect-intensive work
+## Software Project Management Complexities
+    1)  Invisibility
+    2)  Changeability
+    3)  Complecity
+    4)  Uniqueness
+    5)  Exactness of solution
+    6)  Team-oriented and intellect-intensive work
 
-    
+## Project Planning
+* ### Sliding Window Planning 
+In the sliding window planning technique, starting with an initial plan, the project is planned more accurately over a number of stages.
+* ### SPMP Document Planning
+Once project planning is complete, project managers document their plans in a software project management plan (SPMP) document.
+
+## Metrics of project size estimation
+The project size is a measure of the problem complexity in terms of theeffort and time required to develop the product.
+* Lines of code (LOC)
+* Function point (FP) metric
+
+
+## Project Estimation Techniques
+1) Empirical Estimation Technique
+2) Heuristic Technique
+3) Analytical Estimation Technique
