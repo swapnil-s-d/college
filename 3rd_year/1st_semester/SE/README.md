@@ -298,7 +298,7 @@ The concept of organic, semidetached, and embedded systems are described below.
 
 Boehm suggested that estimation of project parameters should be done through three stages: Basic COCOMO, Intermediate COCOMO, and Complete COCOMO.
 
-1) Basic COCOMO Model
+1. ### Basic COCOMO Model
 The basic COCOMO model helps to obtain a rough estimate of the project parameters. It estimates effort and time required for development in the following way: 
 *   * Effort = a * (KDSI)b PM 
     * Tdev = 2.5 * (Effort)c Months
@@ -309,3 +309,4 @@ The basic COCOMO model helps to obtain a rough estimate of the project parameter
     * Tdev denotes the estimated time required to develop the software (expressed in months)
 The value of the constants a, b, c are given below: 
 ![Basic COCOMO Model](Images/BasicCOCOMO%20Model.png)
+2. ### Intermediate COCOMO Model
