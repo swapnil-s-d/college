@@ -189,9 +189,9 @@ Once the customer approves the prototype, the actual software is developed using
 
 ![Increment Development Model](Images/Increment%20Devel%3Bopment%20Model%202.png)
 
-### * Advantages:
-1) Error Reduction.
-2) Incremental resource deployment.
+* ### Advantages:
+    1) Error Reduction.
+    2) Incremental resource deployment.
 
 
 ## 6) Evolutionary Software Development Model :
@@ -202,33 +202,31 @@ Once the customer approves the prototype, the actual software is developed using
 
 * The evolutionary model is well-suited to use in object-oriented software development projects.
 
-### * Advantages:
-1) Effective elicitation of actual customer requirements.
-2) Easy handling change requests.
+* ### Advantages:
+    1) Effective elicitation of actual customer requirements.
+    2) Easy handling change requests.
 
-### * Disadvantages:
-1) Feature division into incremental parts can be non-trivial.
-2) Ad hoc design.
+* ### Disadvantages:
+    1) Feature division into incremental parts can be non-trivial.
+    2) Ad hoc design.
 
 
 ## 7) Rapid Application Development (RAD) Model:
 
 ![RAD Model](Images/RAD%20Model.png)
 
-#### * Goals:
-* To decrease the time taken and the cost incurred to develop software systems.
-* To limit the costs of accommodating change requests.
-* To reduce the communication gap between the customer and the developers.
+* #### Goals:
+    * To decrease the time taken and the cost incurred to develop software systems.
+    * To limit the costs of accommodating change requests.
+    * To reduce the communication gap between the customer and the developers.
+    * Incremental Process Model.
+    * Cycle (60 - 90 days).
 
-* Incremental Process Model.
-
-* Cycle (60 - 90 days).
-
-#### * Application:
-* Customised software
-* Non-critical software
-* Highly constrained pro ject schedule
-* Large software
+* #### Application:
+    * Customised software
+    * Non-critical software
+    * Highly constrained pro ject schedule
+    * Large software
 
 
 ## 8) Spiral Model:
@@ -241,19 +239,25 @@ Once the customer approves the prototype, the actual software is developed using
 
 * A risk is essentially any adverse circumstance that might hamper the successful completion of a software project.
 
-### * Disadvantages:
-* It appears complex model to follow.
-* It is risk driven and more complicated phase structure.
-* Not suitable for development of outsourced projects.
+* ### Disadvantages:
+    * It appears complex model to follow.
+    * It is risk driven and more complicated phase structure.
+    * Not suitable for development of outsourced projects.
 
-### * Advantages:
-For projects having many unknown risks that might show up as the development proceeds, the spiral model would be the most appropriate development model to follow.
+* ### Advantages:
+    For projects having many unknown risks that might show up as the development proceeds, the spiral model would be the most appropriate development model to follow.
 
     
 
 
 # Software Project Management 
-
-    The main goal of software project management is to enable a group of developers to work effectively towards the successful completion of a project.
+The main goal of software project management is to enable a group of developers to work effectively towards the successful completion of a project.
+## Software Project Management Complexities:
+    1)  Invisibility
+    2)  Changeability
+    3)  Complecity
+    4)  Uniqueness
+    5)  Exactness of solution
+    6)  Team-oriented and intellect-intensive work
 
     
