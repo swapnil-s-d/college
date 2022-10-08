@@ -274,9 +274,38 @@ The project size is a measure of the problem complexity in terms of theeffort an
 
 
 ## Project Estimation Techniques
-### 1) Empirical Estimation Technique
-* #### Expert Judgement 
-* #### Delphi Cost Estimation
-### 2) Heuristic Technique
-* #### COCOMO 
-### 3) Analytical Estimation Technique
+1) Empirical Estimation Technique
+    * Expert Judgement 
+    * Delphi Cost Estimation
+2) Heuristic Technique
+    * COCOMO 
+3) Analytical Estimation Technique
+
+
+## COCOMO MODEL
+COCOMO (Constructive Cost Model) was proposed by Boehm. According to him, there could be three categories of software projects: organic, semidetached, and embedded. The classification is done considering the characteristics of the software, the development team and environment. These product classes typically correspond to application, utility and system programs, respectively. Data processing programs could be considered as application programs. Compilers, linkers, are examples of utility programs. Operating systems, real-time system programs are examples of system programs. One could easily apprehend that it would take much more time and effort to develop an OS than an attendance management system.
+The concept of organic, semidetached, and embedded systems are described below. 
+* Organic: A development project is said to be of organic type, if 
+    * The project deals with developing a well understood application
+    * The development team is small
+    * The team members have prior experience in working with similar types of projects
+* Semidetached: A development project can be categorized as semidetached type, if 
+    * The team consists of some experienced as well as inexperienced staff
+    * Team members may have some experience on the type of system to be developed
+* Embedded: Embedded type of development project are those, which 
+    * Aims to develop a software strongly related to machine hardware
+    * Team size is usually large
+
+Boehm suggested that estimation of project parameters should be done through three stages: Basic COCOMO, Intermediate COCOMO, and Complete COCOMO.
+
+1) Basic COCOMO Model
+The basic COCOMO model helps to obtain a rough estimate of the project parameters. It estimates effort and time required for development in the following way: 
+*   * Effort = a * (KDSI)b PM 
+    * Tdev = 2.5 * (Effort)c Months
+* where
+    * KDSI is the estimated size of the software expressed in Kilo Delivered Source Instructions
+    * a, b, c are constants determined by the category of software project
+    * Effort denotes the total effort required for the software development, expressed in person months (PMs)
+    * Tdev denotes the estimated time required to develop the software (expressed in months)
+The value of the constants a, b, c are given below: 
+![Basic COCOMO Model](Images/BasicCOCOMO%20Model.png)
