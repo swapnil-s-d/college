@@ -300,8 +300,8 @@ Boehm suggested that estimation of project parameters should be done through thr
 
 1. ### Basic COCOMO Model
 The basic COCOMO model helps to obtain a rough estimate of the project parameters. It estimates effort and time required for development in the following way: 
-*   * Effort = a * (KDSI)b PM 
-    * Tdev = 2.5 * (Effort)c Months
+*   * **Effort = a * (KDSI)b PM** 
+    * **Tdev = 2.5 * (Effort)c Months**
 * where
     * KDSI is the estimated size of the software expressed in Kilo Delivered Source Instructions
     * a, b, c are constants determined by the category of software project
@@ -310,3 +310,28 @@ The basic COCOMO model helps to obtain a rough estimate of the project parameter
 The value of the constants a, b, c are given below: 
 ![Basic COCOMO Model](Images/BasicCOCOMO%20Model.png)
 2. ### Intermediate COCOMO Model
+The basic COCOMO model considers that effort and development time depends only on the size of the software. However, in real life there are many other project parameters that influence the development process. The intermediate COCOMO take those other factors into consideration by defining a set of 15 cost drivers (multipliers) as shown in the table below [i]. Thus, any project that makes use of modern programming practices would have lower estimates in terms of effort and cost. Each of the 15 such attributes can be rated on a six-point scale ranging from "very low" to "extra high" in their relative order of importance. Each attribute has an effort multiplier fixed as per the rating. The product of effort multipliers of all the 15 attributes gives the Effort Adjustment Factor (EAF). 
+![Intermediate Cocomo Model](Images/Intermidiate%20COCOMO%20Model.png)
+EAF is used to refine the estimates obtained by basic COCOMO as follows: 
+* **Effort|corrected = Effort * EAF**
+* **Tdev|corrected = 2.5 * (Effort| corrected) c**
+3. ### Complete COCOMO Model
+Both the basic and intermediate COCOMO models consider a software to be a single homogeneous entity -- an assumption, which is rarely true. In fact, many real life applications are made up of several smaller sub-systems. (One might not even develop all the sub-systems -- just use the available services). The complete COCOMO model takes these factors into account to provide a far more accurate estimate of project metrics. 
+To illustrate this, consider a very popular distributed application: the ticket booking system of the Indian Railways. There are computerized ticket counters in most of the railway stations of our country. Tickets can be booked / cancelled from any such counter. Reservations for future tickets, cancellation of reserved tickets could also be performed. On a high level, the ticket booking system has three main components: 
+*   Database
+*   Graphical User Interface (GUI)
+*   Networking facilities
+Among these, development of the GUI is considered as an organic project type; the database module could be considered as a semi-detached software. The networking module can be considered as an embedded software. To obtain a realistic cost, one should estimate the costs for each component separately, and then add it up. 
+
+* ### Advantages of COCOMO Model
+    * It works on historical data and provides more accurate details.
+    * Easy to implement with various factors. One can easily understand how it works.
+    * Easy to estimate the total cost of the project.
+    * The drivers are very helpful to understand the impact of the different factors that affect project crises.
+* ### Disadvantages of COCOMO Model
+    * It ignores the hardware issues as well as the personal turnover level.
+    * It ignores all the documentation and requirements.
+    * It mostly depends on time factors.
+    * It limits the accuracy of software costs.
+    * It oversimplifies the impact of safety or security aspects.
+    * It also ignores customer skills, cooperation, and knowledge.
