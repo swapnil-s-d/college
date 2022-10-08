@@ -1,34 +1,29 @@
 # INTRODUCTION 
 
 ## What is a software?
-
-    The product that software professionals build and then support for long term.
-
-    Software comprises of
-        1) Instructions
-        2) Data Structure
-        3) Documentation
+The product that software professionals build and then support for long term.
+### Software comprises of
+1) Instructions
+2) Data Structure
+3) Documentation
 
 ## Definition :
-
-    Software Engineering is the application of a systematic , decipline and quantifiable approach to the development, operation and maintenance of software , i.e. the application of engineering to the software.
-
-    Engineering approach to develop software.
+Software Engineering is the application of a systematic , decipline and quantifiable approach to the development, operation and maintenance of software , i.e. the application of engineering to the software.
+Engineering approach to develop software.
 
 ## Software crisis:
+### Causes :
+    Software products are ,
+1) more expensive than hardware.
+2) difficult to alter, debug and enhance.
+3) use resources non-optimally.
+4) fail to meet user requirements.
+5) far from being reliable.
+6) Frequently crash.
+7) Delivered late.
 
-     Causes :
-        Software products are ,
-        1) more expensive than hardware.
-        2) difficult to alter, debug and enhance.
-        3) use resources non-optimally.
-        4) fail to meet user requirements.
-        5) far from being reliable.
-        6) Frequently crash.
-        7) Delivered late.
-
-    Solution:
-        By spreading software engineering practices among the developers, coupled with further advancements to the software engineering discipline itself.
+### Solution:
+    By spreading software engineering practices among the developers, coupled with further advancements to the software engineering discipline itself.
 
 
 ### Programs Vs Software Products:
@@ -36,23 +31,20 @@
 ![diff](Images/ProgramsVsSoftProducts.png)
 
 ### Phase contentment error:
-
-    1) Understand Problem.
-    2) Plan the solutions.
-    3) Carry out the plan.
-    4) Examine result(Tea=sting strategy defines).
+1) Understand Problem.
+2) Plan the solutions.
+3) Carry out the plan.
+4) Examine result(Tea=sting strategy defines).
 
 
 
 
 
 # Software Development Life Cycle:
-
-    A software development life cycle (SDLC) model describes the different activities that need to be carried out for the software to evolve in its life cycle.
+A software development life cycle (SDLC) model describes the different activities that need to be carried out for the software to evolve in its life cycle.
 
 
 ## 1) Classical Waterfall Model:
-
 * Simple
 * Hard to put this model use in any non-trivial software development project.
 
@@ -66,71 +58,56 @@ Last Phase is Maintainence Phase.
 The activity that spans all phases of software development is called Project management.
 
 
-1) Feasibility Study:
-    * To determine whether it would be financially and technically feasible to develop the software.
+#### 1) Feasibility Study:
+* To determine whether it would be financially and technically feasible to develop the software.
+* It involves collection of basic information, processing required, output data required as well as various constraints on the development
 
-    * It involves collection of basic information, processing required, output data required as well as various constraints on the development
+#### 2) Requirement analysis and specification: 
+* Goal is to collect all relevant information regarding software
+* Goal of requirement analysis is to weed out the incompletness and inconsistent in gathered requirements.
+* Then identified requirements are documened, this is called a Software Requirement Specification (SRS) document.
 
-2) Requirement analysis and specification: 
-    * Goal is to collect all relevant information regarding software
+#### 3) Design:
+* To transform the requirement specified in SRS dociument into structure that is suitable for implementation in some programming language.
+* Software Architecture is derived from SRS document.
 
-    * Goal of requirement analysis is to weed out the incompletness and inconsistent in gathered requirements.
+##### 1) Function / Procedural oriented design :
+* It is based on dataflow oriented design
+* Functional requirement specified in SRS document decomposed into subfunction and data-flow among these subfunctions is Analysed 
+* Then it represented Diagramatically.
 
-    * Then identified requirements are documened, this is called a Software Requirement Specification (SRS) document.
+##### 2) Object oriented Design:
+* Various objects that occur in problem domain and solution domain are first identified 
+* It is credited to have several benefits such as lower benefit time , effort and better maintainability of software.
 
-3) Design:
-    * To transform the requirement specified in SRS dociument into structure that is suitable for implementation in some programming language.
-
-    * Software Architecture is derived from SRS document.
-
-    1) Function / Procedural oriented design :
-        * It is based on dataflow oriented design
-
-        * Functional requirement specified in SRS document decomposed into subfunction and data-flow among these subfunctions is Analysed 
-
-        * Then it represented Diagramatically.
-
-    2) Object oriented Design:
-        * Various objects that occur in problem domain and solution domain are first identified 
-
-        * It is credited to have several benefits such as lower benefit time , effort and better maintainability of software.
-
-4) Coding and Testing:
-    * To translate software design into source code and ensure individually each function is working correctly.
-
-    * End product of this phase is set of program modules that have been individually unit tested.
-
-    * Main objective is to determine the correct working of the individual modules.
+#### 4) Coding and Testing:
+* To translate software design into source code and ensure individually each function is working correctly.
+* End product of this phase is set of program modules that have been individually unit tested.
+* Main objective is to determine the correct working of the individual modules.
 
 
-5) Integration and system testing:
-    * Different modules are integrated in planned manner.
+#### 5) Integration and system testing:
+* Different modules are integrated in planned manner.
+* Integration of various modules are carried out variously no. of steps
+* Then full working system is obtained .
+* System testing is carried out on this fully working system.
 
-    * Integration of various modules are carried out variously no. of steps
-
-    * Then full working system is obtained .
-
-    * System testing is carried out on this fully working system.
-
-6) Maintenance:
-    * Effort Spent during its operating phase is much more than required for developing software itself.
-
-    * Types:
-        1) Corrective Maintenance:
-            To correct errors that were not discovered during product development phase.
-
-        2) Perfective Maintenance:
-            To improve performance of system.
-
-        3) Adaptive Maintenance:
-            Porting the software to work in a new environment.
+#### 6) Maintenance:
+* Effort Spent during its operating phase is much more than required for developing software itself.
+##### * Types:
+1) Corrective Maintenance:
+    To correct errors that were not discovered during product development phase.
+2) Perfective Maintenance:
+    To improve performance of system.
+3) Adaptive Maintenance:
+        Porting the software to work in a new environment.
 
 
-Shortcomings:
-    1) No feedback paths.
-    2) Difficult to accommodate change requests.
-    3) Inefficient error corrections.
-    4) No overlapping of phases.
+### Shortcomings:
+1) No feedback paths.
+2) Difficult to accommodate change requests.
+3) Inefficient error corrections.
+4) No overlapping of phases.
 
 
 
