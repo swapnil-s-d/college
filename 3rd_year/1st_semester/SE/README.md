@@ -160,10 +160,10 @@ Being a derivative of the classical waterfall model, this model inherits most of
 
 * This model is the most appropriate for projects that suffer from technical and requirements risks. A constructed prototype helps overcome these risks.
 
-### * Necessity of the prototyping model:
-1) For development of the graphical user interface (GUI) part of an application.
-2) Especially useful when the exact technical solutions are unclear to the development team.
-3) The prototyping model can be deployed when development of highly optimised and efficient software is required.
+* ### Necessity of the prototyping model:
+    1) For development of the graphical user interface (GUI) part of an application.
+    2) Especially useful when the exact technical solutions are unclear to the development team.
+    3) The prototyping model can be deployed when development of highly optimised and efficient software is required.
 
 ![Prototyping Model](Images/Prototyping%20Model.png)
 
@@ -185,9 +185,10 @@ Once the customer approves the prototype, the actual software is developed using
     
 ![Increment Development Model](Images/Increment%20Development%20Model.png)
 
+![Increment Development Model](Images/Increment%20Devel%3Bopment%20Model%202.png)
+
 * Referred to as the successive versions model and sometimes as the incremental model
 
-![Increment Development Model](Images/Increment%20Devel%3Bopment%20Model%202.png)
 
 * ### Advantages:
     1) Error Reduction.
@@ -252,12 +253,13 @@ Once the customer approves the prototype, the actual software is developed using
 
 # Software Project Management 
 The main goal of software project management is to enable a group of developers to work effectively towards the successful completion of a project.
+
 ## Software Project Management Complexities:
-    1)  Invisibility
-    2)  Changeability
-    3)  Complecity
-    4)  Uniqueness
-    5)  Exactness of solution
-    6)  Team-oriented and intellect-intensive work
+1)  Invisibility
+2)  Changeability
+3)  Complecity
+4)  Uniqueness
+5)  Exactness of solution
+6)  Team-oriented and intellect-intensive work
 
     
