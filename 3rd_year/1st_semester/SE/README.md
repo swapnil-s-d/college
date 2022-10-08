@@ -37,7 +37,7 @@ Engineering approach to develop software.
 4) Examine result(Tea=sting strategy defines).
 
 
-
+* * *
 
 
 # Software Development Life Cycle:
@@ -249,7 +249,7 @@ Once the customer approves the prototype, the actual software is developed using
     For projects having many unknown risks that might show up as the development proceeds, the spiral model would be the most appropriate development model to follow.
 
     
-
+* * *
 
 # Software Project Management 
 The main goal of software project management is to enable a group of developers to work effectively towards the successful completion of a project.
